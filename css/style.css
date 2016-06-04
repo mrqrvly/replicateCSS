@@ -11,6 +11,7 @@ header {
   margin: 1vw;
   border-radius: 10px;
   border: 2px solid black;
+  font-family: 'Francois One', sans-serif;
 }
 
 #headerImage {
@@ -30,28 +31,41 @@ header {
 #pageName {
   float: left;
   font-weight: 500;
-  font-size: 10vh;
-  margin-top: 4.2vh;
+  font-size: 9vh;
+  margin-top: 3.8vh;
 }
 
 nav {
-  padding: 1px;
-  margin: 1px;
+  height: 20vh;
   float: right;
-  margin: 5vh;
 }
 
 #navUl {
   list-style: none;
   display: inline-flex;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  text-decoration: none;
 }
 
 .navLink {
-  padding: 1px;
-  margin: 1px;
-  margin: 2vh;
-  padding: 1vh;
+  width: 15vw;
+  padding: 8.1vh 0 8.1vh 0; 
+  text-align: center;
+  letter-spacing: .15vw;
+  border-left: 1px solid black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:visited {
+  color: #000;
 }
 
 main {
@@ -65,17 +79,24 @@ main {
   height: 65vh;
   border: 2px solid black;
   border-radius: 10px;
+  overflow: auto;
 }
 
 #solaire {
   width: 54.5vw;
   margin-right: .7vw;
   background-color: seagreen;
+  float: left;
+  font-family: 'Lora', serif;
+  letter-spacing: .1vw;
+  font-weight: bold;
+  font-size: 2.35vh;
+  color: white;
 }
 
 #solaireImage {
-  width: 20vh;
-  height: 20vh;
+  width: 22vh;
+  height: 22vh;
   margin: 1.8vh;
   float: left;
   border: 2px solid black;
@@ -87,9 +108,44 @@ main {
   max-width: 100%;
 }
 
-#song {
+#solaireIntro {
+  margin: 1.8vh;
+}
+
+#solaireIntro p {
+  margin-bottom: 2.2vh;
+}
+
+#tips {
   width: 42.3vw;
   background-color: grey;
+  float: right;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+#tips p {
+  margin: 1.8vh;
+  font-size: 3vh;
+  font-weight: 700;
+}
+
+#tips ul {
+  background-color: #fff;
+  margin: 2vw;
+  border-radius: 10px;
+  list-style: none;
+  border: 2px solid green;  
+}
+
+#tips li {
+  margin: 1.3vh 5vh 1.3vh 5vh;
+  border-bottom: 2px solid black;
+  padding: .5vh 0 1.5vh 0; 
+}
+
+#toolsBottom {
+  border-bottom: none;
 }
 
 footer {
@@ -104,5 +160,6 @@ footer {
 
 #copyright {
   margin-top: 2.4vh;
+  font-weight: 600;
 
 }
